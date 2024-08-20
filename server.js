@@ -2,6 +2,7 @@ const express = require('express');
 const dotenv = require('dotenv');
 const connectDB = require('./config/db');
 const userRoutes = require('./routes/user.routes');
+const commentRoutes = require('./routes/comment.routes');
 
 // Load environment variables
 dotenv.config();
@@ -16,6 +17,9 @@ app.use(express.json());
 
 // User routes
 app.use('/api/users', userRoutes);
+
+// Comment routes
+app.use('/api', commentRoutes);
 
 app.get('/', (req, res) => {
   res.send('API is running...');
