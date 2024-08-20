@@ -179,9 +179,8 @@ To run integration tests:
 
 ```bash
 npm test
-
-
-### Build Docker Image
+```
+## Build Docker Image
 
 1. Open your terminal or command line interface.
 2. Navigate to the root directory of your project where the `Dockerfile` is located.
@@ -191,7 +190,7 @@ npm test
     docker build -t multi-level-comment-system .
     ```
 
-### Run Docker Container
+## Run Docker Container
 
 1. Once the Docker image is built, run the following command to start a container:
 
@@ -215,10 +214,6 @@ Ensure that you configure environment variables in your hosting service similarl
 
 For detailed API documentation, please refer to the [API Documentation](#).
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## Contact
 
-For any questions or support, please contact [your-email@example.com](mailto:your-email@example.com).
+For any questions or support, please contact [faisalpinitod@gmail.com](mailto:your-email@example.com).
